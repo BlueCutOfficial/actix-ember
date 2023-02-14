@@ -1,6 +1,11 @@
 # Actix Ember
 
-Tiny example project to set up an Ember frontend requesting an Actix server endpoint locally.
+Tiny example project to run an Ember frontend requesting an Actix server endpoint locally.
+
+What this project does:
+
+- An Actix server is used to create a hard-coded user structure that can be returned with a GET request.
+- An Ember app calls this endpoint and displays the user information on the user page.
 
 ## Prerequisites
 
@@ -20,7 +25,7 @@ cd actix-ember
 
 Split your terminal into two windows. In the first window, follow the instructions to run the backend. In the second window, follow the instructions to run the frontend.
 
-### Run the backend:
+### Run the backend
 
 From `actix-ember` folder:
 
@@ -35,7 +40,7 @@ Visit http://127.0.0.1:8080/api/users/bluecut
 
 <img alt="The screen displays the returned payload for the endpoint /users/bluecut" src="./docs/back-page-look.png" width="300px" />
 
-### Run the frontend:
+### Run the frontend
 
 From `actix-ember` folder:
 
