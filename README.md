@@ -33,7 +33,7 @@ Visit http://127.0.0.1:8080/api/users/bluecut
 
 👀 You should see the example endpoint (it could look different depending on your browser, but the data should be the same).
 
-![The screen displays the returned payload for the endpoint /users/bluecut](./docs/back-page-look.png)
+<img alt="The screen displays the returned payload for the endpoint /users/bluecut" src="./docs/back-page-look.png" width="300px" />
 
 ### Run the frontend:
 
@@ -49,4 +49,4 @@ http://localhost:4200/users/bluecut
 
 👀 You should see the example page.
 
-![The screen displays the template for the route /users/bluecut](./docs/front-page-look.png)
+<img alt="The screen displays the template for the route /users/bluecut" src="./docs/front-page-look.png" width="200px" />
